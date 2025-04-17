@@ -178,19 +178,21 @@ header{
     align-items: center !important;
 
 }
-.menu ul li{
+
+.menu ul li a, .menu ul li{
     color: #fff;
     font-size: 17px;
     cursor: pointer;
     transition: .3s;
 }
-.menu ul li.active{
+.menu ul li a.active{
     color: var(--primaty-color);
 }
 
-.menu ul li:hover{
+.menu ul li a:hover, .menu ul li :hover{
     color: var(--primaty-color);
 }
+
 
 .navbar a button{
     padding: 8px 25px;
